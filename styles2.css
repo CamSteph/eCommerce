@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+/* VARIABLES */
+:root {
+    --light-grey: #646464;
+    --border: #353535;
+    --text-color: rgb(253, 201, 30);
+    --font: 'Nunito', sans-serif;
+}
+body {
+    font-family: var(--font);
+    height: 40vh;
+    background-color: slategrey;
+}
+.text-color {
+    color: var(--text-color);
+}
+.bg-color {
+    background-color: slategrey;
+}
+.font-nunito {
+    font-family: var(--font);
+}
+.lightblue {
+    color: lightblue;
+}
+/* HEADER */
+header {
+    font-family: var(--font);
+    position: relative;
+    color: orange;
+}
+header .site-title {
+    font-family: var(--font);
+}
+input {
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    left: 140%;
+    top: 19.3%;
+    border-radius: 5rem;
+}
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
+}
+.header-links a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.header-links a:hover {
+    color: orangered;
+    font-size: 1.1rem;
+}
+.btn-group {
+    position: relative;
+}
+/* NAVIGATION MENU */
+.navbar-nav {
+    padding: 0.8em 0em;
+}
+.navbar-nav .nav-item a:hover {
+    font-size: 1.1rem;
+}
+.navbar .nav-link {
+    font-size: 0.9em;
+}
+.navbar .nav-item .nav-link {
+    padding: 0 1.3em;
+}
+.navbar-nav .basket-icon {
+    margin-right: 3.5rem !important;
+
+}
+.pic {
+    height: 200px;
+    width: 140px;
+}
+/* BUY OPTIONS */
+.profile:hover {
+    border: 4px solid rgb(255, 196, 0);
+    margin: 20px;
+}
+.buy {
+    height: 150px;
+}

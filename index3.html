@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoppers</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9c7d1bff64.js" crossorigin="anonymous"></script>
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header class="container-fluid d-flex align-items-stretched p-5 main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index3.html">STORE</a></li>
+                <li><a href="index2.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h3 class="band-name band-name-large text-color">The Shoppers</h3>
+    </header>
+    <section class="container-fluid content-section">
+        <h2 class="section-header">PRODUCTS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Denim Jacket</span>
+                <img class="shop-item-image" src="/img/sale1.jpg">
+                <div class="shop-item-details my-3">
+                    <span class="shop-item-price">$32.99</span>
+                    <button class="btn btn-warning shop-item-button text-white" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title"> Women's Jacket</span>
+                <img class="shop-item-image" src="img/sale6.jpg">
+                <div class="shop-item-details my-3">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-warning text-white shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title"> Floral Shirt</span>
+                <img class="shop-item-image" src="img/sale2.jpg">
+                <div class="shop-item-details my-3">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-warning text-white shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Women's Striped Shirt</span>
+                <img class="shop-item-image" src="img/sale3.jpg">
+                <div class="shop-item-details my-3">
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Women's Handbag</span>
+                <img class="shop-item-image" src="img/sale5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Women's Shirt</span>
+                <img class="shop-item-image" src="img/sale9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Men's T-Shirt</span>
+                <img class="shop-item-image" src="img/sale8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">EVEN MORE</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Men's Bomber</span>
+                <img class="shop-item-image" src="img/man.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Woman's Jacket</span>
+                <img class="shop-item-image" src="img/sale7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-warning text-white shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase text-white" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container-fluid main-footer-container bg-dark">
+            <h3 class="band-name">Online Shoppers</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-facebook p-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <i class="fab fa-twitter p-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-youtube p-2"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="script2.js"></script>
+</body>
+</html>
